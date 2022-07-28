@@ -1,0 +1,244 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.background{
+  /* background-image: url("images/greenbg.png"); */
+  background-image:url("images/section5.jpg");
+  background-size: 100px;
+  text-align: left;
+  margin: 0;
+  height: 100vh;
+}
+.carousel{
+  margin-left: 750px;
+  margin-right: 125px;
+  margin-top: 20px;
+}
+.heading{
+  padding-top: 20px;
+  font-family: 'Rubik Glitch', cursive;
+  font-size: 50px;
+  margin: 0;
+  text-align: left;
+  padding-left: 850px;
+  padding-top: 50px;
+  color:#abffc4;
+  font-size: 70px;
+}
+.headingInfoTitle{
+  font-family: 'Bebas Neue', cursive;
+  padding-left: 875px;
+  padding-top: 5px;
+  color:#9fd6a5;
+}
+.section1{
+  text-align: center;
+  font-family: 'Rock Salt', cursive;
+  background-color: #092342;
+  color:#abffc4;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.section1 h1{
+  color: #00ffb3;
+}
+.section2{
+  background-image: url("images/greenbg.png");
+   height: 100vh;
+  width: 100vw; 
+  background-repeat: no-repeat;
+  display:inline-flex;
+}
+.section2 img{
+  border: 50px solid #064635;
+}
+.section2a{
+  padding-left: 50px;
+  padding-right: 25px;
+  padding-top: 180px;
+}
+.section2b{
+  width: 900px;
+  height: 750px;
+  text-align: center;
+  padding-top: 150px;
+  color: #092342;
+}
+.section2b h1{
+  font-family: 'Rubik Glitch', cursive;
+  font-size: 60px;
+}
+.section2b h3{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding-left: 20px;
+}
+.section3{
+  text-align: center;
+  background-color: #092342;
+  font-family: 'Rock Salt', cursive;
+  color:#abffc4;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.section4{
+  background-image: url("images/section4.jpg");
+  height: 100vh;
+  width: 100%;
+}
+.section4a{
+  text-align: center;
+  /* background-color: #064635; */
+  width: 1000px;
+  margin-left: 500px;
+  padding-top: 120px;
+  color: #064635;
+}
+.section4a button{
+  padding: 10px;
+  background-color:#064635;
+}
+.section4a h1{
+  font-size: 50px;
+}
+.section4a h3{
+  line-height: 15px;
+} 
+.beforeSection5{
+  text-align: center;
+  background-color: #092342;
+}
+.beforeSection5 h1{
+  color: #00ffb3;
+  font-family: 'Rock Salt', cursive;
+  padding: 30px;
+}
+.section5{
+  margin-top: 0px;
+  text-align: center;
+  font-family: 'Rock Salt', cursive;
+  background-image: url("images/greenbg.png");
+  color:#abffc4;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  /* height: 100vh; */
+} 
+.section5 img{
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.section5 h5, h1{
+  color:#092342;
+}
+.box{
+  display: inline-block;
+  padding: 50px;
+  text-align: center;
+  background-color: white;
+}
+.navbar {
+  padding: 20px;
+  background-color: #064635;
+}
+.nav-item{
+  padding-left: 18px;
+  padding-right: 18px;
+}
+.nav-item a:hover{
+    color: #70db5c;
+}
+.nav-item a:link{
+    color: #70db5c;
+}
+ a:active{
+  color: #c9ffbf;
+}
+.nav-link{
+  color: #00ffb3;
+  font-size: 18px;
+  font-family: 'Roboto Mono', monospace;
+}
+.navbar-brand{
+  color: #9fd6a5;
+  font-size: 22px;
+  font-family: 'Beau Rivage', cursive;
+}
+a:hover{
+  color: #70db5c;
+  text-decoration: underline;
+}
+.background{
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#head{
+  font-family:monospace;
+}
+.loginOption{
+  padding-left: 450px;
+}
+.mastercard{
+  padding-left: 100px;
+  display: inline;
+}
+.card-group
+{
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+/* For footer */
+.site-footer
+{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  /* .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  } */
+}
